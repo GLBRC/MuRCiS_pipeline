@@ -2,7 +2,7 @@
 
 ### Purpose:
 
-This repository is associated with the coupling of multiplex random CRISPR array assembly with high-throughput long-read sequence analysis (MuRCiS). This will take ccs_bam PacBio files, determine the read length, plot box plots, quantitate the number and type of unique CRISPRi arrays, and plot correlation and chord plots.
+This repository is associated with the coupling of multiplex random CRISPR array assembly with high-throughput long-read sequence analysis (MuRCiS). This work was described in the article [_A randomized multiplex CRISPRi-Seq approach for the identification of critical combinations of genes_](https://doi.org/10.7554/eLife.86903.2). This will take ccs_bam PacBio files, determine the read length, plot box plots, quantitate the number and type of unique CRISPRi arrays, and plot correlation and chord plots.
 
 The first part of the pipeline requires basic Linux commands, which are explained here. This will count the read lengths and remove reads lacking a match to the repeat region. The second part of the pipeline is more automated and uses `murcs_script.py` for this.
 
